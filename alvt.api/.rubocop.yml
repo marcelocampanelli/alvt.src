@@ -1,41 +1,10 @@
 require: rubocop-rails
 
-Style/Documentation:
-  Enabled: false
-
-Style/BlockDelimiters:
-  EnforcedStyle: braces_for_chaining
-
-Style/LambdaCall:
-  Enabled: false
-
-Style/TrailingCommaInArrayLiteral:
-  Enabled: false
-
-Style/TrailingCommaInHashLiteral:
-  Enabled: false
-
-Rails/HasAndBelongsToMany:
-  Enabled: false
-
-Rails/HttpPositionalArguments:
-  Enabled: false
-
-Rails/HasManyOrHasOneDependent:
-  Enabled: false
-
-Rails/SkipsModelValidations:
-  Enabled: false
-
-Style/ClassAndModuleChildren:
-  Enabled: false
-
 Style/FrozenStringLiteralComment:
   Enabled: false
 
-Naming/FileName:
-  Exclude:
-    - 'config/rubber/**/*'
+Style/Documentation:
+  Enabled: false
 
 Metrics/BlockLength:
   Enabled: true
@@ -57,6 +26,7 @@ AllCops:
   Exclude:
     - 'Gemfile.lock'
     - 'bin/**/*'
+    - 'bin/'
     - 'db/**/*'
     - 'tmp/**/*'
     - 'vendor/**/*'
